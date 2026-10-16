@@ -1,0 +1,28 @@
+{
+  "name": "weeklygiving",
+  "version-string": "0.1.4",
+  "dependencies": [
+    "qtsvg",
+    {
+      "name": "qtbase",
+      "platform": "windows",
+      "features": [
+        "widgets",
+        "gui",
+        "windeployqt",
+        "sql"
+      ]
+    },
+    {
+      "name": "qtbase",
+      "platform": "linux",
+      "features": [
+        "widgets",
+        "gui",
+        "cups",
+        "sql"
+      ]
+    },
+    "sqlite3"
+  ]
+}

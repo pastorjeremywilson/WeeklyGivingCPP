@@ -1,0 +1,22 @@
+ToDo:
+
+Done:
+    Restrict return/tab logic on line edit to only the last one in the widget
+    Add setting to change include special in total (no for LBCN)
+
+
+{
+    "fileLoc": "/home/jeremy/LBCN/public/databases/weekly_giving.db",
+    "specialDesignations": {
+        "spec1": "Benevolence Fund",
+        "spec2": "Women's Ministry",
+        "spec3": "North American Mission",
+        "spec4": "International Mission",
+        "spec5": "Synod",
+        "spec6": "Seminary",
+        "spec7": "Other (See notes)"
+    },
+    "maxChecks": 30,
+    "name": "Church",
+    "includeSpecial": "False"
+}

@@ -1,0 +1,58 @@
+QMainWindow {
+    background-color: #709070;
+}
+
+QGroupBox {
+    background-color: #f5fff5;
+    border: 2px solid #105010;
+    color: #102010;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+QGroupBox::title {
+    background-color: #f5fff5;
+    subcontrol-origin: margin;
+    padding-top: 6px;
+}
+
+QScrollArea {
+    background-color: transparent;
+    border: none;
+}
+
+QPushButton, QToolButton {
+    padding: 2px 3px 2px 3px;
+    background-color: #f5fff5;
+    color: black;
+    border: 1px solid #105010;
+    border-radius: 3px;
+}
+QPushButton:hover, QToolButton:hover {
+    background-color: #709070;
+    color: white;
+}
+QPushButton:pressed, QPushButton:pressed {
+    background-color: #105010;
+    color: white;
+}
+
+#container, #checksWidget {
+    background-color: #f5fff5;
+}
+
+#divider {
+    border-left: 2px solid #105010;
+}
+
+#headerLabel {
+    color: #105010;
+}
+
+#toolbarLabel {
+    color: white;
+}
+
+#statusLabel {
+    color: #f5fff5;
+}

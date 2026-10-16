@@ -1,0 +1,15 @@
+{
+        "fileLoc": "none",
+        "specialDesignations": {
+                "spec1": "Benevolence Fund",
+                "spec2": "Women's Ministry",
+                "spec3": "North American Mission",
+                "spec4": "International Mission",
+                "spec5": "Synod",
+                "spec6": "Seminary",
+                "spec7": "Other (See notes)"
+        },
+        "maxChecks": 30,
+        "name": "LBC",
+        "includeSpecial": "False"
+}
